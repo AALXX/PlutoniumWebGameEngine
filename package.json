@@ -1,0 +1,19 @@
+{
+  "name": "plutonium-web-game-engine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "DevEngine": "tsc-watch --onSuccess tsc",
+    "BuildEngine": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-amd": "^7.13.0",
+    "nodemon": "^2.0.7",
+    "tsc-watch": "^4.2.9"
+  }
+}
